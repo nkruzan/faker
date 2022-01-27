@@ -58,7 +58,7 @@
     "generate:api-docs": "esno scripts/apidoc.ts",
     "docs:build": "run-s docs:prepare docs:build:run",
     "docs:build:run": "vitepress build docs",
-    "docs:build:ci": "run-s build docs:build ",
+    "docs:build:ci": "run-s build docs:build",
     "docs:prepare": "run-s generate:api-docs",
     "docs:dev": "run-s docs:prepare docs:dev:run",
     "docs:dev:run": "vitepress dev docs",
